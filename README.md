@@ -10,10 +10,11 @@
 
 ###
 
-<p align="left">Tenha o [nodejs](https://nodejs.org/en) instalado</p>
+Tenha o [nodejs](https://nodejs.org/en) instalado
 
 ###
 
-<p align="left">Use:<br><br>```javascript<br>npm install<br>```</p>
-
-###
+Use:
+```javascript
+npm install
+```
