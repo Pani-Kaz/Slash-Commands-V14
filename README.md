@@ -14,6 +14,6 @@
 
 ###
 
-<p align="left">Use:<br><br>```javascript<br>npm install`<br>```</p>
+<p align="left">Use:<br><br>```javascript<br>npm install<br>```</p>
 
 ###
