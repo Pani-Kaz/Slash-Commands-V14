@@ -4,11 +4,13 @@
 ###
 
 <h2 align="left">Donwload</h2>
+
 ```
 git clone https://github.com/Pani-Kaz/Slash-Commands-V14.git
 ```
 
 <h3 align="left">Install modules</h3>
+
 ```javascript
 npm install
 ```
@@ -20,11 +22,13 @@ npm install
 ###
 
 <h3 align="left">development mode</h3>
+
 ```javascript
 npm run dev
 ```
 
 <h3 align="left">mode of production</h3>
+
 ```javascript
 npm start
 ```
