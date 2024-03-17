@@ -4,19 +4,28 @@
 ###
 
 <h2 align="left">Donwload</h2>
-```shell
+```
 git clone https://github.com/Pani-Kaz/Slash-Commands-V14.git
 ```
 
-<h3></h3>
-
-###
-
-Tenha o [nodejs](https://nodejs.org/en) instalado
-
-###
-
-Use:
+<h3 align="left">Install modules</h3>
 ```javascript
 npm install
 ```
+
+###
+
+<h2 align="left">Run</h2>
+
+###
+
+<h3 align="left">development mode</h3>
+```javascript
+npm run dev
+```
+
+<h3 align="left">mode of production</h3>
+```javascript
+npm start
+```
+
