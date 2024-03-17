@@ -1,10 +1,11 @@
 {
-  "name": "handler",
-  "version": "1.0.0",
-  "description": "Projeto feito em vídeo! Vídeo: ",
+  "name": "discordjs-v14",
+  "version": "2.0.0",
+  "description": "Discord Bot in version 14 for Discord.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "discord",
@@ -17,6 +18,10 @@
   "author": "panikaz",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.12.1"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

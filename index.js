@@ -4,7 +4,10 @@ const {
      Collection
 } = require("discord.js");
 
-const fs = require("fs")
+const fs = require("fs");
+
+const dotenv = require("dotenv");
+dotenv.config();
 
 const client = new Client({
     intents: [
@@ -13,9 +16,9 @@ const client = new Client({
     ]
 })
 
-client.slash = new Collection()
+client.Commands = new Collection()
 
-client.login("TOKEN DO SEU BOT 🙃")
+client.login(process.env.TOKEN);
 
 
 fs.readdirSync('./events').forEach(file=> {
@@ -24,10 +27,10 @@ fs.readdirSync('./events').forEach(file=> {
     else client.on(event.name, (...args) => event.execute(client, ...args))
 })
 
-fs.readdirSync('./slash/').forEach(div => {
-    fs.readdirSync(`./slash/${div}/`).forEach(i=> {
-        const command = require(`./slash/${div}/${i}`)
-        client.slash.set(command.name, command)
+fs.readdirSync('./SlashCommands/').forEach(div => {
+    fs.readdirSync(`./SlashCommands/${div}/`).forEach(i=> {
+        const command = require(`./SlashCommands/${div}/${i}`)
+        client.Commands.set(command.name, command)
     })
 })
 

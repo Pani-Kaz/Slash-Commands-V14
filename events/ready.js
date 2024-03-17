@@ -3,6 +3,7 @@ module.exports = {
     execute: (client) => {
         console.log(`${client.user.username} está online`)
 
-        client?.application.commands.set(client.slash)
+        // Note: Set commmands
+        client?.application.commands.set(client.Commands);
     }
 }
