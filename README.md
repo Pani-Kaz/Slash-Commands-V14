@@ -1,12 +1,14 @@
-<h1 align="left">Como criar seu bot</h1>
+<h1 align="left">Discord bot - V14</h1>
+<p align="left">Simple handler for creating Slash commands by Discord.js V14</p>
 
 ###
 
-<p align="left">Isso é um exemplo de handler 🙃</p>
+<h2 align="left">Donwload</h2>
+```shell
+git clone https://github.com/Pani-Kaz/Slash-Commands-V14.git
+```
 
-###
-
-<h2 align="left">Como baixar?</h2>
+<h3></h3>
 
 ###
 
