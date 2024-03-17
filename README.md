@@ -15,19 +15,25 @@ git clone https://github.com/Pani-Kaz/Slash-Commands-V14.git
 npm install
 ```
 
+<p align="left">Or</p>
+
+```javascript
+yarn add
+```
+
 ###
 
 <h2 align="left">Run</h2>
 
 ###
 
-<h3 align="left">development mode</h3>
+<p align="left">Development</p>
 
 ```javascript
 npm run dev
 ```
 
-<h3 align="left">mode of production</h3>
+<p align="left">Production</p>
 
 ```javascript
 npm start
